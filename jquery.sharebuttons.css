@@ -1,0 +1,117 @@
+#shareButtons {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    width: 48px;
+}
+#shareButtons > a {
+    display: block;
+    height: 48px;
+    color: #FFFFFF !important;
+    text-decoration: none;
+    background: none no-repeat center center;
+    background-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+#shareButtons a:hover {
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+#shareButtons .share-counter {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.6rem;
+    text-align: right;
+    display: block;
+    padding: 2px;
+    right: 0;
+    opacity: 0.9;
+}
+#shareButtons .share-counter:empty {
+    /*margin-right: 0.1px;*/
+}
+
+@media all and (max-width:1300px) {
+
+    #shareButtons {
+        width: 32px;
+        transition: width 0.3s
+    }
+
+    #shareButtons:hover {
+        width: 48px;
+    }
+
+}
+
+@media all and (max-width:750px) {
+
+    #shareButtons, #shareButtons:hover {
+        top: auto;
+        width: auto;
+        bottom: 0;
+        left: auto;
+        right: 0;
+    }
+
+    #shareButtons > a {
+        width: 48px;
+        float: left;
+    }
+
+}
+
+#shareButtons .flat-facebook {
+    background-color: #3A5795;
+    background-image: url("facebook.svg");
+}
+
+#shareButtons .flat-facebook:hover {
+    background-color: #324B81;
+}
+
+#shareButtons .flat-twitter {
+    background-color: #55ACEE;
+    background-image: url("twitter.svg");
+}
+
+#shareButtons .flat-twitter:hover {
+    background-color: #379DEB;
+}
+
+#shareButtons .flat-draugiem {
+    background-color: #FE972D;
+    background-image: url("draugiem.svg");
+}
+
+#shareButtons .flat-draugiem:hover {
+    background-color: #FE8710;
+}
+
+#shareButtons .flat-vkontakte {
+    background-color: #6383A8;
+    background-image: url("vk.svg");
+}
+
+#shareButtons .flat-vkontakte:hover {
+    background-color: #547396;
+}
+
+#shareButtons .flat-gplus {
+    background-color: #DB4437;
+    background-image: url("gplus.svg");
+}
+
+#shareButtons .flat-gplus:hover {
+    background-color: #CF3426;
+}
+
+#shareButtons .flat-pinterest {
+    background-color: #BC0618;
+    background-image: url("pinterest.svg");
+}
+
+#shareButtons .flat-pinterest:hover {
+    background-color: #A80516;
+}

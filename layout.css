@@ -1,0 +1,277 @@
+/*** layout ***/
+
+body {
+    background-color: #252525;
+}
+
+.section-banner .container {
+    padding-top: 5px !important;
+}
+
+#top {
+    border-bottom: 2px dashed;
+    border-color: #CCB100;
+}
+
+.bannerpage #top {
+    border-bottom: none;
+}
+
+#title {
+    margin: 14px 0px;
+}
+
+#title .mz_wysiwyg {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+#top {
+    background-color: transparent;
+}
+
+#wrap {
+    background-color: #FFDE00;
+}
+
+#bottom .mz_wysiwyg {
+    color: #FFFFFF
+}
+
+#bottom a, #bottom a:hover {
+    color: #FFFFFF;
+}
+
+#bottom .mz_social a {
+    fill: #FFDE00;
+}
+
+#bottom a:hover {
+    text-decoration: none
+}
+
+/* section colors */
+
+.section-bg-none {
+    background-color: #FFDE00;
+}
+
+.section-bg-1 {
+    background-color: #FFFFFF;
+}
+
+.section-bg-2 {
+    background-color: #666666;
+}
+
+.section-bg-3 {
+    background-color: #252525;
+}
+
+/* language select */
+
+#languages li > a {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #252525;
+    min-width: 32px;
+    line-height: 32px;
+    display: inline-block;
+    border-radius: 32px;
+}
+
+#languages li.selected > a,
+#languages li > a:hover {
+    color: #FFFFFF;
+    background-color: #252525;
+}
+
+/* menu */
+
+#menu > ul > li {
+    margin: 0px 12px;
+}
+
+#menu ul li a {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #252525;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu > ul > li > a {
+    display: inline-block;
+    margin: 2px;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0px;
+}
+
+#menu > ul > li.selected > a,
+#menu > ul > li > a:hover {
+    border-color: #252525;
+}
+
+#menu ul ul {
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    min-width: 150px;
+    border: 1px solid #EEEEEE;
+}
+
+#menu ul ul li {
+    border-bottom: 1px solid #F2F2F2;
+    border-radius: 0px;
+}
+
+#menu ul ul li:last-child {
+    border-bottom: none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#menu ul ul li:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#menu ul ul li:hover {
+    background-color: #F5F5F5;
+}
+
+#menu ul ul li a {
+    color: #252525;
+    font-size: 14px;
+}
+
+#menu {
+    margin: 14px 0px 12px 0px;
+    margin-left: -14px;
+    margin-right: -14px;
+}
+
+/* submenu */
+
+#submenu a {
+    font-weight: 300;
+    color: #252525;
+    border-radius: 3px;
+}
+
+#submenu li.selected > a,
+#submenu li:hover > a {
+    background-color: #252525;
+    color: #FFFFFF
+}
+
+/* special boxes - bigbar */
+
+#bigbar {
+    position: relative;
+}
+
+#bigbar div.moze-banner {
+    background-position: center center;
+    background-size: cover;
+}
+
+.bigbar-overlay-container {
+    position: relative;
+    min-height: 390px;
+    padding: 15px;
+}
+
+#bigbar-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bigbar-h1 .mz_wysiwyg {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2.38rem;
+    color: #FFFFFF;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+.bigbar-h2 .mz_wysiwyg {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#bigbar #bigbar-down {
+    background: url("urn:scrapbook:download:error:https://dss4hwpyv4qfp.cloudfront.net/designs/radical/css/down.png") no-repeat center 0px;
+    height: 68px;
+    width: 64px;
+    display: block;
+    margin: 27px auto 0 auto;
+    opacity: 0.5;
+}
+
+#bigbar .mz_editable h1 {
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+#bigbar .mz_editable p {
+    color: #FFFFFF;
+}
+
+/* special boxes - sidebar */
+
+#sidebar h2 {
+    font-size: 17px;
+    padding: 5px 5px 5px 10px;
+    line-height: 1.5;
+    background-color: #252525;
+    color: #FFFFFF;
+    position: relative;
+}
+
+#sidebar h2:after {
+    border-right: 40px solid #FFDE00;
+    border-top: 40px solid transparent;
+    content: "";
+    height: 0;
+    right: 0;
+    top: 0;
+    width: 0;
+    position: absolute;
+}
+.mz_rtl #sidebar h2:after {
+    border-left: 40px solid #FFDE00;
+    border-right: none;
+    right: auto;
+    left: 0;
+}
+
+@media screen and (max-width: 750px) {
+
+    #menu {
+        margin: 0px 0px 5px 0px;
+    }
+
+    #title .mz_wysiwyg {
+        margin-top: 20px;
+    }
+
+    #bigbar-overlay {
+        padding: 20px;
+    }
+
+    #bigbar div.moze-banner {
+
+    }
+    
+    #bigbar br {
+        display: none;
+    }
+}

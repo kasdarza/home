@@ -1,0 +1,612 @@
+<!DOCTYPE html><html lang="lv" data-scrapbook-source="https://www.kasdarza.com/piegade/" data-scrapbook-create="20230117092903701" data-scrapbook-title="kasdarza - Ēdienu piegāde"><head>
+
+        <title>kasdarza - Ēdienu piegāde</title>
+
+
+
+
+
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+
+        <link href="_.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="layout-shared.css" type="text/css">
+        <link rel="stylesheet" href="layout.css" type="text/css">
+        <link rel="stylesheet" href="editable.css" type="text/css">
+
+        <link href="favicon.png" rel="shortcut icon">
+<link href="https://www.kasdarza.com/favicon.png?1" rel="apple-touch-icon">        
+            <link rel="stylesheet" href="jquery.fancybox.min.css" type="text/css">
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+
+
+
+
+
+
+
+            <link href="css.css" rel="stylesheet" type="text/css">
+            <style class="customizer">
+                                                                            #wrap, .section-bg-none { background-color :  #f5e9be  }
+                                                                            #sidebar h2:after { border-right-color :  #f5e9be  }
+                                                                                                                            body, #sidebar h2, #languages li.selected > a, #languages li > a:hover { background-color :  #15532d  }
+                                                                            .mz_editable td { border-color :  #15532d  }
+                                                                                                                            #bottom .mz_wysiwyg, #bottom a, #bottom a:hover, #languages li.selected > a, #languages li > a:hover, #sidebar h2 { color :  #fbf4f4  }
+                                                                                                                            #title .mz_wysiwyg { color :  #055c3e  }
+                                                                                                                            #top { border-color :  #075325  }
+                                                                                                                            a, .mz_editable a { color :  #0b5139  }
+                                                                                                                            a:hover, .mz_editable a:hover { color :  #188c5f  }
+                                                                                                                            .moze-form .moze-formbutton, .moze-button, .moze-button-large { background-color :  #08512e  }
+                                                                            .moze-button-large.btn-alt-light { border-color :  #08512e  }
+                                                                            .moze-button-large.btn-white, .moze-button.btn-alt, .moze-button-large.btn-alt { color :  #08512e  }
+                                                                                                                            .moze-form .moze-formbutton:hover, .moze-button:hover, .moze-button-large:hover { background-color :  #0d8767  }
+                                                                            .moze-button-large.btn-alt-light:hover { border-color :  #0d8767  }
+                                                                            .moze-button-large.btn-white:hover, .moze-button.btn-alt:hover, .moze-button-large.btn-alt:hover { color :  #0d8767  }
+                                                                                                                            #bottom .mz_social a { color :  #ffffff  }
+                                                                            #bottom .mz_social a { fill :  #ffffff  }
+                                                                                                                            #bigbar-overlay { background-color :  hsla(0, 0%, 0%, 0.6)  }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </style>
+    <style class="customizer-fonts">
+                                                                                                                                                                                                                                                                                                                                                                                                                                body, .mz_editable {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-weight : 300;
+                                                                                                            letter-spacing : -0.01em;
+                                                                        }
+                                                                                                                            #title .mz_wysiwyg {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-weight : 700;
+                                                                                                            letter-spacing : -0.02em;
+                                                                                                            font-style : normal;
+                                                                        }
+                                                                                                                            .mz_editable h1, .mz_editable h1.moze-megatitle {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-weight : 700;
+                                                                                                            letter-spacing : -0.02em;
+                                                                                                                                              font-size: calc(2.45rem * 0.9);
+                                                                                                       }
+                                                                                                                            .mz_editable h2, .sidebox h2 {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-weight : 700;
+                                                                        }
+                                                                            #sidebar h2 {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-weight : 700;
+                                                                        }
+                                                                                                                            .mz_editable h3 {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-weight : 700;
+                                                                        }
+                                                                                                                            .bigbar-h1 .mz_wysiwyg {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-weight : 700;
+                                                                                                            letter-spacing : -0.015em;
+                                                                                                            font-style : normal;
+                                                                                                                                              font-size: calc(2.38rem * 0.95);
+                                                                                                       }
+                                                                                                                            .bigbar-h2 .mz_wysiwyg {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-weight : 300;
+                                                                        }
+                                                                                                                            .moze-form input, .moze-form select, .moze-form textarea {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                        }
+                                                                                                                            .moze-button, .moze-button-large, .moze-form .moze-formbutton {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-weight : 400;
+                                                                        }
+                                                                                                                            .mz_editable .moze-blockquote {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-style : italic;
+                                                                        }
+                                                                                                                            .mz_editable .moze-code {
+                                                                                font-family : 'Courier New', Courier, monospace;
+                                                                        }
+                                                                                                                            #menu ul li a {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-weight : 300;
+                                                                                                            letter-spacing : -0.01em;
+                                                                        }
+                                                                                                                            #menu > ul > li > a {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                                                            font-weight : 400;
+                                                                                                            letter-spacing : -0.015em;
+                                                                        }
+                                                                                                                            #languages li > a {
+                                                                                font-family : Montserrat, Arial, Helvetica, sans-serif;
+                                                                        }
+                                                                                </style>
+
+    
+    <meta name="verify-paysera" content="63ae5712f0df2fc92842fdc60cb91eef">
+
+
+
+
+    </head>
+
+    <body class="header-menu-end    footer-classic                              " lang="lv">
+
+        
+        <div id="wrap">
+
+            <header id="top">
+    <div id="header">
+        <div id="header-side">
+            <div id="shopicons">
+                <a class="menu-icon shopbar-search" href="javascript:" title="Meklēt" aria-label="Meklēt"><img src="icon-search.svg"></a>
+                <a class="menu-icon shopbar-cart" href="javascript:" title="Pirkumu grozs" aria-label="Pirkumu grozs"><img src="icon-bag.svg"><span></span></a>
+            </div>
+            
+        </div>
+        <div id="header-main">
+            <div id="title">
+                <a href="https://www.kasdarza.com/"></a><div class="mz_component mz_wysiwyg mz_editable"><a href="https://www.kasdarza.com/">    </a><div class="moze-wysiwyg-editor"><a href="https://www.kasdarza.com/">
+                    </a><a href="https://www.kasdarza.com/home/" target="_self"><img src="logo012.png" style="width: 278px;" alt=""></a>
+            </div>
+</div>
+            </div>
+                            <div id="toptext" style="display: none">
+                    <div class="mz_component mz_wysiwyg mz_editable">    <div class="moze-wysiwyg-editor">
+            </div>
+</div>
+                </div>
+                                        <nav class="mz_component mz_menu" id="menu">
+            <ul>
+                <li><a href="https://www.kasdarza.com/">Sākums</a>
+                                    </li>
+                        <li class="selected"><a href="">Ēdienu piegāde</a>
+                                    </li>
+                        <li><a href="https://www.kasdarza.com/edieni/">Ēdienkarte</a>
+                                    </li>
+                        <li><a href="https://www.kasdarza.com/dzerieni/">Dzērienkarte</a>
+                                    </li>
+                        <li><a href="https://www.kasdarza.com/banketi/">Banketu karte</a>
+                                    </li>
+                        <li><a href="https://www.kasdarza.com/brancs/">Brančs</a>
+                                    </li>
+                        <li><a href="https://www.kasdarza.com/gallery/">Galerija</a>
+                                    </li>
+                        <li><a href="https://www.kasdarza.com/kontakti/">Galdiņu rezervēšana, kontakti</a>
+                                </li></ul>
+            
+</nav>
+                    </div>
+    </div>
+    </header>
+                <div id="submenubox"><nav class="mz_component mz_menu mz_catalogmenu" id="submenu"></nav></div>
+                            <div id="main">
+
+
+    
+
+<div>
+    <main id="catalog" class="section section-customizable">
+        <div class="mz_overlay_bar mz_catalog_customize"><a class="moze-catalog-customize"></a></div>
+        <div class="container">
+            <div id="sidebar-wrap">
+                <div class="mz_component mz_catalog mz_editable mainblock cat-images-3 cat-images-square cat-has-searchbox">
+<div id="cat-nav" style="display: none">
+
+    <ul class="cat-breadcrumb" style="display: none">
+                    <li>Ēdienu piegāde</li>
+            </ul>
+
+    
+            <form class="moze-form cat-sort" style="display: none">
+            <label>Kārtot pēc</label>
+            <select name="" size="1">
+                                    <option value="featured" selected="selected">Ieteicamais</option>
+                                    <option value="newest">Jaunākais vispirms</option>
+                                    <option value="price-low">Zemākā cena</option>
+                                    <option value="price-high">Augstākā cena</option>
+                            </select>
+        </form>
+    
+</div>
+
+
+<div class="cat-grid">
+
+            
+    <div class="cat-thumb" data-cat-item-id="1343985" data-cat-item-link="/piegade/item/brancs/brancs/">
+        
+        <div>
+
+            <a href="https://www.kasdarza.com/piegade/item/brancs/brancs/" title="">
+                <div class="cat-thumb-pic">
+                                            <img src="290900410_4804731509631187_4057304471657418612_n-f62fc7e49bd5e75b4909ecc4a81a2f7c.jpg" alt="Brīvdienu brančs">
+                                    </div>
+                <div class="cat-thumb-title">
+                    Brīvdienu brančs
+                </div>
+            </a>
+
+            <div class="cat-thumb-price">
+                                                                                        <span class="moze-price">€15.00</span>
+                                                                                        </div>
+
+         </div>
+
+            
+    </div>
+
+
+    <div class="cat-thumb" data-cat-item-id="2894854" data-cat-item-link="/piegade/item/brancs/brivdienu-brancs-vegetariesiem/">
+        
+        <div>
+
+            <a href="https://www.kasdarza.com/piegade/item/brancs/brivdienu-brancs-vegetariesiem/" title="">
+                <div class="cat-thumb-pic">
+                                            <img src="vegetaraisbrancs-0b57a211bd380552cc0dcee6e58cbedf.jpeg" alt="Brīvdienu brančs veģetāriešiem">
+                                    </div>
+                <div class="cat-thumb-title">
+                    Brīvdienu brančs veģetāriešiem
+                </div>
+            </a>
+
+            <div class="cat-thumb-price">
+                                                                                        <span class="moze-price">€12.00</span>
+                                                                                        </div>
+
+         </div>
+
+            
+    </div>
+
+
+    <div class="cat-thumb" data-cat-item-id="1358591" data-cat-item-link="/piegade/item/banketu-edieni/bankets-nr-1-aukstas-uzkodas/">
+        
+        <div>
+
+            <a href="https://www.kasdarza.com/piegade/item/banketu-edieni/bankets-nr-1-aukstas-uzkodas/" title="">
+                <div class="cat-thumb-pic">
+                                            <img src="bankets1-339f5d4aee79112fd9d76e03308c5648.jpeg" alt="Bankets Nr 1 /aukstās uzkodas/">
+                                    </div>
+                <div class="cat-thumb-title">
+                    Bankets Nr 1 /aukstās uzkodas/
+                </div>
+            </a>
+
+            <div class="cat-thumb-price">
+                                                                                        <span class="moze-price">€25.00</span>
+                                                                                        </div>
+
+         </div>
+
+            
+    </div>
+
+
+    <div class="cat-thumb" data-cat-item-id="1358656" data-cat-item-link="/piegade/item/banketu-edieni/bankets-nr-2-aukstas-uzkodas-1/">
+        
+        <div>
+
+            <a href="https://www.kasdarza.com/piegade/item/banketu-edieni/bankets-nr-2-aukstas-uzkodas-1/" title="">
+                <div class="cat-thumb-pic">
+                                            <img src="bankets2-2ccf75d9a82855ce2adce92c1c2a9fdc.jpeg" alt="Bankets Nr 2 /aukstās uzkodas/">
+                                    </div>
+                <div class="cat-thumb-title">
+                    Bankets Nr 2 /aukstās uzkodas/
+                </div>
+            </a>
+
+            <div class="cat-thumb-price">
+                                                                                        <span class="moze-price">€33.00</span>
+                                                                                        </div>
+
+         </div>
+
+            
+    </div>
+
+
+    <div class="cat-thumb" data-cat-item-id="1358662" data-cat-item-link="/piegade/item/banketu-edieni/bankets-nr-3-aukstas-uzkodas-siltie-edieni-deserts/">
+        
+        <div>
+
+            <a href="https://www.kasdarza.com/piegade/item/banketu-edieni/bankets-nr-3-aukstas-uzkodas-siltie-edieni-deserts/" title="">
+                <div class="cat-thumb-pic">
+                                            <img src="bankets3-335d111ea8e2f6a03d9e3a1117bcc97f.jpeg" alt="Bankets Nr 3 /aukstās uzkodas, siltie ēdieni, deserts/">
+                                    </div>
+                <div class="cat-thumb-title">
+                    Bankets Nr 3 /aukstās uzkodas, siltie ēdieni, deserts/
+                </div>
+            </a>
+
+            <div class="cat-thumb-price">
+                                                                                        <span class="moze-price">€38.00</span>
+                                                                                        </div>
+
+         </div>
+
+            
+    </div>
+
+
+    <div class="cat-thumb" data-cat-item-id="1358666" data-cat-item-link="/piegade/item/banketu-edieni/bankets-nr-4-aukstas-uzkodas/">
+        
+        <div>
+
+            <a href="https://www.kasdarza.com/piegade/item/banketu-edieni/bankets-nr-4-aukstas-uzkodas/" title="">
+                <div class="cat-thumb-pic">
+                                            <img src="bankets4-029fa61e420bdeb6dda7189955697d5e.jpeg" alt="Bankets Nr 4 /aukstās uzkodas, siltie ēdieni, deserts/">
+                                    </div>
+                <div class="cat-thumb-title">
+                    Bankets Nr 4 /aukstās uzkodas, siltie ēdieni, deserts/
+                </div>
+            </a>
+
+            <div class="cat-thumb-price">
+                                                                                        <span class="moze-price">€47.00</span>
+                                                                                        </div>
+
+         </div>
+
+            
+    </div>
+
+
+    <div class="cat-thumb" data-cat-item-id="1358675" data-cat-item-link="/piegade/item/banketu-edieni/bankets-nr-6-aukstas-uzkodas-siltie-edieni-deserts/">
+        
+        <div>
+
+            <a href="https://www.kasdarza.com/piegade/item/banketu-edieni/bankets-nr-6-aukstas-uzkodas-siltie-edieni-deserts/" title="">
+                <div class="cat-thumb-pic">
+                                            <img src="bankets6-5bc875d20e3245e7d67b452dc399a846.jpeg" alt="Bankets Nr 6 /aukstās uzkodas, siltie ēdieni, deserts/">
+                                    </div>
+                <div class="cat-thumb-title">
+                    Bankets Nr 6 /aukstās uzkodas, siltie ēdieni, deserts/
+                </div>
+            </a>
+
+            <div class="cat-thumb-price">
+                                                                                        <span class="moze-price">€42.00</span>
+                                                                                        </div>
+
+         </div>
+
+            
+    </div>
+
+
+    <div class="cat-thumb" data-cat-item-id="1358689" data-cat-item-link="/piegade/item/banketu-edieni/pirkstinuzkodas/">
+        
+        <div>
+
+            <a href="https://www.kasdarza.com/piegade/item/banketu-edieni/pirkstinuzkodas/" title="">
+                <div class="cat-thumb-pic">
+                                            <img src="WhatsApp_Image_2022-04-10_at_2_05_28_PM-b9b8d46d73a28d951d4b2a3977f5f2e1.jpeg" alt="Gaļas pirkstiņuzkodas">
+                                    </div>
+                <div class="cat-thumb-title">
+                    Gaļas pirkstiņuzkodas
+                </div>
+            </a>
+
+            <div class="cat-thumb-price">
+                                                                                        <span class="moze-price">€2.00</span>
+                                                                                        </div>
+
+         </div>
+
+            
+    </div>
+
+
+    <div class="cat-thumb" data-cat-item-id="2353237" data-cat-item-link="/piegade/item/banketu-edieni/galdina-rezervacija/">
+        
+        <div>
+
+            <a href="https://www.kasdarza.com/piegade/item/banketu-edieni/galdina-rezervacija/" title="">
+                <div class="cat-thumb-pic">
+                                            <img src="321380439_688695689307404_3965261455385348915_n-a6c9053749973117f8a04ead4b1177ea.jpg" alt="Galdiņa rezervācija Jauna gada sagaidīšanai">
+                                    </div>
+                <div class="cat-thumb-title">
+                    Galdiņa rezervācija Jauna gada sagaidīšanai
+                </div>
+            </a>
+
+            <div class="cat-thumb-price">
+                                                                                        <span class="moze-price">€20.00</span>
+                                                                                        </div>
+
+         </div>
+
+            
+    </div>
+
+
+    <div class="cat-thumb" data-cat-item-id="3025296" data-cat-item-link="/piegade/item/banketu-edieni/vegetaras-pirkstinuzkodas/">
+        
+        <div>
+
+            <a href="https://www.kasdarza.com/piegade/item/banketu-edieni/vegetaras-pirkstinuzkodas/" title="">
+                <div class="cat-thumb-pic">
+                                            <img src="WhatsApp_Image_2022-04-10_at_2_11_15_PM-5a2cdefe9f4df2e2ae27b7541a7b62bc.jpeg" alt="Veģetārās pirkstiņuzkodas">
+                                    </div>
+                <div class="cat-thumb-title">
+                    Veģetārās pirkstiņuzkodas
+                </div>
+            </a>
+
+            <div class="cat-thumb-price">
+                                                                                        <span class="moze-price">€1.20</span>
+                                                                                        </div>
+
+         </div>
+
+            
+    </div>
+
+
+    <div class="cat-thumb" data-cat-item-id="3025297" data-cat-item-link="/piegade/item/banketu-edieni/juras-produktu-pirkstinuzkodas/">
+        
+        <div>
+
+            <a href="https://www.kasdarza.com/piegade/item/banketu-edieni/juras-produktu-pirkstinuzkodas/" title="">
+                <div class="cat-thumb-pic">
+                                            <img src="WhatsApp_Image_2022-04-10_at_2_02_45_PM-5f5534f62ee2497a6a78a71df6b56860.jpeg" alt="Jūras velšu pirkstiņuzkodas">
+                                    </div>
+                <div class="cat-thumb-title">
+                    Jūras velšu pirkstiņuzkodas
+                </div>
+            </a>
+
+            <div class="cat-thumb-price">
+                                                                                        <span class="moze-price">€2.80</span>
+                                                                                        </div>
+
+         </div>
+
+            
+    </div>
+
+    
+</div>
+
+
+
+
+<br class="clear">
+
+
+</div>
+                <div id="sidebar">
+                    <div class="mz_component mz_catalogsearchbox mz_editable sidebox"><div>
+    <form action="https://www.kasdarza.com/piegade/" class="moze-form moze-catalog-searchbox-form" method="post" style="position: relative; margin-top: 0">
+        <input class="search-query" type="text" value="" placeholder="Meklēt">
+        <div class="search-btn"></div>
+    </form>
+</div></div>
+                    <div class="mz_component mz_catalogcart sidebox" data-name="maincatalogcart" data-type="catalogcart" data-cart-id="4f4cd1e571068d3e047ea00363ef6acc"></div>
+                    <nav class="mz_component mz_catalogcategories sidebox" data-name="maincatalogcategories" data-type="catalogcategories">
+            <h2></h2>
+    
+
+
+            <ul>
+                                                                <li><a href="https://www.kasdarza.com/piegade/params/category/featured/">Īpašais piedāvājums</a></li>
+                                    <li><a href="https://www.kasdarza.com/piegade/category/brancs/">Branča rezervēšana</a>
+                                </li>
+                <li><a href="https://www.kasdarza.com/piegade/category/banketu-edieni/">Banketa rezervēšana</a>
+                            </li></ul>
+            </nav>
+                    
+                    <div class="mz_component mz_wysiwyg mz_editable sidebox">    <div class="moze-wysiwyg-editor">
+                    <h2>Dārgie draugi!</h2><p><span class="moze-tiny">Jaunajā sezonā Kasdārzā&nbsp; ir gatavs nākt tieši pie Jums mājās,!&nbsp;</span></p><p><span class="moze-tiny">Mūsu gardēžiem ar piegādi mājās piedāvājam gan mūsu restorāna ēdienu klāstu,&nbsp; gan burgerus, kurus jau sen daudzi sauc par labākajiem pilsētā un protams, ka picas! Esam par tām saņēmuši ļoti daudz atzinīgu vārdu, daži pat ir teikuši, ka labākas nekā Itālijā!</span></p><p><o:p></o:p></p><p><span class="moze-tiny">
+
+
+
+
+
+
+</span><span class="moze-tiny">
+
+</span><span class="moze-tiny">
+
+</span><span class="moze-tiny">
+
+
+
+</span><span class="moze-tiny">
+
+
+
+
+
+
+
+
+
+</span></p><p><span class="moze-tiny">Lai labi garšo! Garantējam! Ja negaršos, naudu atgriezīsim! Pilnīgi
+nopietni!</span></p><h2>Piegādes noteikumi</h2><p><span class="moze-tiny"><b>Piegāžu kārtība un garantijas:</b></span></p><p><span class="moze-tiny" style="letter-spacing: -0.01em;">Garantējam garšīgu ēdienu. Ja ēdiens nav bijis garšīgs atgriezīsim samaksāto naudu 100% apmērā. Sūdzība jāiesniedz 3h laikā no piegādes brīža, nosūtot ziņu uz epastu <a href="https://www.kasdarza.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="305b5143705b51435451424a511e535f5d">[email&nbsp;protected]</a> ar argumentētu pamatojumu, kas tieši nebija garšīgs.</span></p><p></p><p><span style="font-size: 0.8em; letter-spacing: -0.01em;">Garantējam ēdienu un dzērienu piegādi 68 minūšu laikā visā Rīgas pilsētā.&nbsp;</span></p><p><span style="font-size: 0.8em; letter-spacing: -0.01em;">Garantētais laiks tiek skaitīts no brīža, kad pircējs ir saņēmis atbildes ziņu, ka pasūtījums ir pieņemts līdz brīdim, kad kurjers ir piebraucis pie adreses un veicis zvanu uz pircēja norādīto nummuru. Garantētais laiks attiecas tikai uz pasūtījumiem, kuros ir ne vairāk kā 2 ēdieni. Dzērieni var būt neierobežotā daudzumā. Garantētais laiks neattiecas uz darba dienām no plkst 16.00 līdz 19.00. Šajā laikā diemžēl būs jāpiepluso iespējamajos sastrēgumos pavadītais laiks.. Ja garantētais piegādes laiks tiek nokavēts, tad tiek atgriezta nauda 50% apmērā no ēdienu kopējās pasūtījuma summas un piegādes izmaksas,. Samaksa par dzērieniem netiek atgriezta.</span><br></p><p><span style="font-size: 0.8em; letter-spacing: -0.01em;">Veicam piegādi arī ārpus Rīgas robežas, piegādes cena tiek aprēķināta 0,80 EUR par 1 km vienā virzienā bez garantētā piegādes laika.</span><br></p><p><b><span style="font-size: 0.8em; letter-spacing: -0.01em;">Samaksas kārtība:</span><br></b></p><p><span class="moze-tiny">&nbsp;Pircējs veic preču pasūtīšanu caur šo mājas lapu, norādot pasūtāmo preču veidu un daudzumu. Pircējam ir iespēja veikt apmaksu par preci lietojot Interneta veiklā iestrādātos maksājuma rīkus vai skaidrā naudā.</span></p><p><span class="moze-tiny"><b>Atteikuma tiesības:</b></span></p><p><span class="moze-tiny">Pircējam ir tiesības atteikties no preces 14 kalendāro dienu laikā no Preces saņemšanas brīža, nosūtot Pārdevējam par to atteikuma vēstuli. Atteikuma vēstules veidlapu Pārdevējs nosūta Pircējam pa e-pastu pēc Pircēja pieprasījuma.</span></p><p><span class="moze-tiny">Pircēja pienākums ir 7 dienu laikā pēc atteikuma vēstules nosūtīšanas atdot preci Pārdevējam. Visus izdevumus, kas radīsies saistībā ar preces nosūtīšanu atpakaļ Pārdevējam, sedz Pircējs.</span></p><p><span class="moze-tiny"><b>Pircējs nevar izmantot atteikuma tiesības, ja:</b></span></p><p></p><ul><li><span style="font-size: 0.8em; letter-spacing: -0.01em;">pasūtītās preces pēc to rakstura nevar atdot atpakaļ, vai tās ātri bojājas vai ir ātri izlietojamas;</span><br></li><li><span style="font-size: 0.8em; letter-spacing: -0.01em;">pasūtītās preces ir izgatavotas tieši Pircējam pēc individuāla pasūtījuma;</span><br></li><li><span style="font-size: 0.8em; letter-spacing: -0.01em;">pircējs ir atvēris audioierakstu vai videoierakstu, vai datorprogrammu iepakojumu.</span><br></li></ul><p></p><p><span class="moze-tiny">Latvijas Republikas Patērētāju tiesību aizsardzības likuma 12. panta sestā daļa nosaka, ka "patērētājs ir atbildīgs par preces kvalitātes un drošuma saglabāšanu atteikuma tiesību realizēšanas termiņā". Pārdevējs patur tiesības Pircējam atteikt izmantot atteikuma tiesības vai ieturēt kompensācijas maksu gadījumā, ja prece ir bojāta, lietošanas laikā nevērīgi izturoties pret preci vai neievērojot instrukcijas norādījumus, ja ir nozaudēts preces oriģinālais iepakojums vai ja tās iepakojums ir būtiski bojāts.</span></p><p><span class="moze-tiny"><b>Datu apstrāde:</b></span></p><p><span class="moze-tiny">Ievadot nepieciešamo informāciju, noformējot pasūtījumu, Pircējs apliecina, ka ir iepazinies un piekrīt, ka viņa sniegtie dati tiek izmantoti, lai Pārdevējs varētu pieņemt Pircēja pasūtījumu un veikt preču piegādi saskaņā ar LR likumdošanas prasībām. Ievadot informāciju, Pircējs piekrīt, ka tam uz norādīto e-pastu tiks izsūtīti paziņojumi, kas saistīti ar Pircēja pasūtījuma apstrādi.</span></p><p><span class="moze-tiny"><b>Pircēja piekrišana:</b></span></p><p><span style="font-size: 0.8em; letter-spacing: -0.01em;">Pērkot preci izmantojot šo mājas lapu, Pircējs piekrīt augstāk izklāstītajiem noteikumiem, bet Pārdevējs apņemas tos ievērot.</span><br></p>
+            </div>
+</div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </main>
+</div>
+
+<div class="mz_component mz_catalogcart mz_catalogsidecart" data-name="maincatalogcartside" data-type="catalogcartside" data-page-type="6" data-catalog-layout="standard" data-cart-id="4f4cd1e571068d3e047ea00363ef6acc"><div id="shopbar">
+    <button id="shopbar-search" class="shopbar-search" aria-label="Meklēt">
+        <img class="open" src="icon-search.svg">
+        <div class="separator"></div>
+    </button>
+    <button id="shopbar-cart" class="shopbar-cart" aria-label="Pirkumu grozs">
+        <img src="icon-bag.svg">
+        <span>0</span>
+    </button>
+</div>
+
+<div id="shopbar-sidecart" class="sliding-panel">
+    <div class="sliding-panel-header">
+        <div class="mz_editable">         <h2>Pirkumu grozs</h2>
+        </div>
+        <button id="shopbar-sidecart-close" class="sliding-panel-close" aria-label="Aizvērt">
+            <img class="close" src="icon-close.svg">
+        </button>
+    </div>
+    <div id="shopbar-sidecart-base" class="sliding-panel-body">
+        
+    </div>
+</div>
+
+<div id="cat-search-panel" style="display: none">
+    <form id="shopbar-searchform" action="https://www.kasdarza.com/piegade/" class="moze-catalog-searchbox-sideform moze-form" method="post">
+        <input aria-label="Meklēt" class="search-query" type="text" value="" placeholder="Meklēt">
+        <button class="search-btn" aria-label="Meklēt"></button>
+        <button class="close-btn" aria-label="Aizvērt"><img src="icon-close.svg"></button>
+    </form>
+</div>
+
+</div>
+
+    </div>
+
+        </div>
+
+            <footer id="bottom">
+        
+        <div id="footer">
+            <div id="foottext">
+                <div class="mz_component mz_wysiwyg mz_editable">    <div class="moze-wysiwyg-editor">
+                    <span class="moze-large">© Kasdārzā 2020</span>
+            </div>
+</div>
+            </div>
+            <div id="social">
+                <div class="mz_component mz_social">
+        <a class="facebook icon-facebook" href="https://www.facebook.com/kasdaarzaa/" target="_blank"></a>                    <a class="instagram icon-instagram" href="https://www.instagram.com/kasdarza/" target="_blank"></a>    
+</div>
+            </div>
+        </div>
+    </footer>        
+    
+
+    <!-- Google Analytics Code -->
+    
+
+    
+
+
+        <link href="jquery.sharebuttons.css" rel="stylesheet" type="text/css">
+        
+        
+        
+
+
+    
+
+</body></html>
